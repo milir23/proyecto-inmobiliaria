@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Nunito', sans-serif;
+  margin: 25px 120px 25px 120px;
+
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between
+}
+
+.infoizq {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.titulo {
+  color: #343434;
+  font-size: 60px;
+  margin-top: 125px;
+  margin-bottom: 25px;
+}
+.primerparrafo {
+  font-weight: 200;
+  height: 73px;
+  width: 580px;
+  line-height: 1.8;
+  margin-bottom: 7px;
+  color: #343434
+}
+.imagenuno {
+  margin-top: 80px;
+}
+
+
+.formulariouno {
+  background-color: #FAFAFA;
+  height: 50px;
+  width: 510px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: 1px solid #FAFAFA;
+  border-radius: 15px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  color:#BBBBBB;
+
+}
+
+.numeros {
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  color:#343434
+  
+
+}
+
+.tamañonumeros {font-size: 35px;}
+.funciona {
+  background-color: #3853B5;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  color:#FAFAFA; 
+  margin-top: 14px;
+  width: 130px;
+  height: 45px;
+  border: 1px solid #3853B5;
+  border-radius: 15px;
+
+}

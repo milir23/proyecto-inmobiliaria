@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderPage from "./components/Page/Page.jsx";
-
+import SectionMenu from "./components/Main/Main.jsx";
 
 
 const App = () => {
@@ -8,7 +8,9 @@ const App = () => {
   return (
     <div>
       <HeaderPage />
+      <SectionMenu />
 
+      
       {/* Otro contenido de tu aplicación */}
     </div>
   );
