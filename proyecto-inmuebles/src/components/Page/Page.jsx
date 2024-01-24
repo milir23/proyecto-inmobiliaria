@@ -1,35 +1,36 @@
-import { Fragment, jsxDEV } from "react/jsx-dev-runtime";
-import "./Page.css";
-import React from 'react';
-import "./src/assets"
 
-import imagen1 from '../assets/imagen1.jpg';
-import imagen2 from '../assets/imagen2.jpg';
-import imagen3 from '../assets/imagen3.jpg';
-import imagen4 from '../assets/imagen4.jpg';
-import imagen5 from '../assets/imagen5.jpg';
-import imagen6 from '../assets/imagen6.jpg';
-import imagen7 from '../assets/imagen7.jpg';
-import imagen8 from '../assets/imagen8.jpg';
-import imagen9 from '../assets/imagen9.jpg';
-import imagen10 from '../assets/imagen10.jpg';
-import imagen11 from '../assets/imagen11.jpg';
-import imagen12 from '../assets/imagen12.jpg';
-import imagen13 from '../assets/imagen13.jpg';
-import imagen14 from '../assets/imagen14.jpg';
-import imagen15 from '../assets/imagen15.jpg';
-import imagen16 from '../assets/imagen16.jpg';
-import imagen17 from '../assets/imagen17.jpg';
-import imagenlogo from '../assets/imagenlogo.jpg';
+import "../Page/Page.css";
+import React from 'react';
+
+
+
+import imagen1 from "../../assets/imagen1.jpg";
+import imagen2 from "../../assets/imagen2.jpg";
+import imagen3 from "../../assets/imagen3.jpg";
+import imagen4 from "../../assets/imagen4.jpg";
+import imagen5 from "../../assets/imagen5.jpg";
+import imagen6 from "../../assets/imagen6.jpg";
+import imagen7 from "../../assets/imagen7.jpg";
+import imagen8 from "../../assets/imagen8.jpg";
+import imagen9 from "../../assets/imagen9.jpg";
+import imagen10 from "../../assets/imagen10.jpg";
+import imagen11 from "../../assets/imagen11.jpg";
+import imagen12 from "../../assets/imagen12.jpg";
+import imagen13 from "../../assets/imagen13.jpg";
+import imagen14 from "../../assets/imagen14.jpg";
+import imagen15 from "../../assets/imagen15.jpg";
+import imagen16 from "../../assets/imagen16.jpg";
+import imagenlogo from "../../assets/imagen17.jpg";
+
+
 
 
 
 
 const headerPage = () => {
-    return jsxDEV(Fragment, {
-        children: jsxDEV("div", {
-            children: [
-                <>
+    return (
+        <>      
+            
                 
                 <div>
                        
@@ -525,12 +526,13 @@ const headerPage = () => {
                         </footer>
 
                     </div>
-                </>
+                
 
-            ]
-        }, void 0)
-    }, void 0);
+            
+        
+                    </>
+    );
+}
 
-};
 export default headerPage;
 
