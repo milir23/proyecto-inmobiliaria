@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       <HeaderPage />
-      <SectionMenu />
+      
 
       
       {/* Otro contenido de tu aplicación */}
