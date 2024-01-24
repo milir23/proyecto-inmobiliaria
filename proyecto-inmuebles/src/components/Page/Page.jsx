@@ -30,8 +30,6 @@ import imagenlogo from "../../assets/imagen17.jpg";
 const headerPage = () => {
     return (
         <>      
-            
-                
                 <div>
                        
                         <header className="menu">
@@ -482,7 +480,7 @@ const headerPage = () => {
 
                         <footer className="imagenes">
                             <section>
-                                <img src={imagen17.jpg} alt="imagen" />
+                                <img src={imagenlogo} alt="imagen" />
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
                                     Perspiciatis aliquam inventore veritatis! Beatae delectus <br />
