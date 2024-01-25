@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: 'https://milir23.github.io/proyecto-inmuebles/',
+  
   build: {
     
     assetsDir: "assets",
