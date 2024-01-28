@@ -1,29 +1,47 @@
-*{margin:0;
-    padding:0;
-    
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap');
+
+:root {
+    --colorFondo: #ffffff;
+    --colorDos: ;
+    --colortres: #FAFAFA;
+    --colorcuatro: #b5b5b5;
+    --botoncolor: #3853B5;
+    --fuente1: 'Nunito', sans-serif;
 }
 
-body {background-color:#FFFFFF;
-    font-family: 'Nunito', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    background-color: var(--colorFondo);
+    font-family: var(--fuente1);
     margin: 25px 120px 25px 120px;
 
-    }
+}
 
 a {
     text-decoration: none;
-    color:#343434
+    color: #343434
 }
 
 .estilonav {
-    color:#7C7C7C;
-    text-decoration:none;
+    color: #7C7C7C;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
 
 }
 
 .estilohome {
     text-decoration: none;
-    color:#1F1F1F;
-    font-weight: bold;}
+    color: #1F1F1F;
+    font-weight: 600;
+    font-size: 16px;
+}
 
 
 .estilonavu {
@@ -32,16 +50,16 @@ a {
     font-weight: 500;
     height: 20px;
     width: 585px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
-.botonuno { 
+.botonuno {
     background-color: #3853B5;
     font-family: 'Nunito', sans-serif;
     font-size: 12px;
 
-    color:#FAFAFA; 
+    color: #FAFAFA;
     margin-top: 15px;
     width: 130px;
     height: 32px;
@@ -53,7 +71,7 @@ a {
     background-color: #3853B5;
     font-family: 'Nunito', sans-serif;
     font-size: 15px;
-    color:#FAFAFA; 
+    color: #FAFAFA;
     margin-top: 14px;
     width: 130px;
     height: 45px;
@@ -65,42 +83,47 @@ a {
 
 
 
-.menu {display:flex;
-justify-content: space-between}
+.menu {
+    display: flex;
+    justify-content: space-between
+}
 
 
 .infoizq {
-    display:flex;
-    flex-direction:column;
-    justify-content:space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .imagenuno {
     margin-top: 80px;
 }
 
-.imagenes { 
-    display:flex;
+.imagenes {
+    display: flex;
     justify-content: space-around;
 }
 
-.centrado {display:flex;
+.centrado {
+    display: flex;
     justify-content: space-between;
-align-items: stretch;}
+    align-items: stretch;
+}
 
-.titulo { 
-    color:#343434;
+.titulo {
+    color: #343434;
     font-size: 60px;
     margin-top: 125px;
-    margin-bottom: 25px;}
+    margin-bottom: 25px;
+}
 
 .primerparrafo {
-    font-weight: 200 ;
+    font-weight: 200;
     height: 73px;
     width: 580px;
     line-height: 1.8;
     margin-bottom: 7px;
-    color:#343434
+    color: #343434
 }
 
 .formulariouno {
@@ -113,37 +136,37 @@ align-items: stretch;}
     border-radius: 15px;
     font-family: 'Nunito', sans-serif;
     font-size: 15px;
-    color:#BBBBBB;
+    color: #BBBBBB;
 
 }
 
 .numeros {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 20px;
     margin-top: 25px;
-    color:#343434
-    
-
+    color: #343434
 }
 
-.tamañonumeros {font-size: 35px;}
+.tamañonumeros {
+    font-size: 35px;
+}
 
 .titulodos {
-    color:#343434;
+    color: #343434;
     font-size: 45px;
     margin-top: 30px;
     margin-bottom: 60px;
     font-weight: bolder;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
-.parrafodos { 
+.parrafodos {
     font-size: 18px;
     line-height: 1.8;
-    color:#626262;
+    color: #626262;
     font-weight: 500;
     margin-top: 30px;
     margin-right: 50px;
@@ -154,19 +177,19 @@ align-items: stretch;}
     font-size: 35px;
     font-weight: bold;
     line-height: 1.5;
-    color:#343434;
-    display:flex;
+    color: #343434;
+    display: flex;
     justify-content: space-between;
-    
+
 }
 
 .parrafosventa {
     font-size: 18px;
     font-weight: 200;
     line-height: 1.5;
-    color:#343434;
+    color: #343434;
     width: 213px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 
 }
@@ -175,9 +198,9 @@ align-items: stretch;}
     font-size: 18px;
     font-weight: 200;
     line-height: 1.5;
-    color:#343434;
+    color: #343434;
     width: 202px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 
 }
@@ -185,12 +208,13 @@ align-items: stretch;}
 .parrafopagdos {
     font-size: 18px;
     line-height: 1.8;
-    color:#626262;
+    color: #626262;
     font-weight: 500;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     margin-top: 100px;
-    margin-bottom: 100px;}
+    margin-bottom: 100px;
+}
 
 .botondos {
     margin-top: 88px;
@@ -202,23 +226,28 @@ align-items: stretch;}
 
 .letsmove {
     font-size: 56px;
-color:#343434;
-display:flex;
-justify-content: space-between;}
+    color: #343434;
+    display: flex;
+    justify-content: space-between;
+}
 
-.subir{margin-top: 25px;}
+.subir {
+    margin-top: 25px;
+}
 
-.ourvision {font-size: 45px;
-color:#343434;
-margin-left: 15px;
-margin-top: 20px;
-margin-bottom: 20px;
+.ourvision {
+    font-size: 45px;
+    color: #343434;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
-.textoour {font-size: 18px;
+.textoour {
+    font-size: 18px;
     line-height: 2;
-    color:#626262;
+    color: #626262;
     font-weight: 500;
     margin-left: 15px;
     margin-bottom: 20px;
@@ -228,20 +257,25 @@ margin-bottom: 20px;
     margin-top: 10px;
     margin-right: 30px;
     margin-left: 15px;
-    margin-bottom: 45px;}
+    margin-bottom: 45px;
+}
 
-.imagenourmi {margin-left: 70px;
-    margin-top: 27px;}
-
-.ourmision { 
-    font-size: 45px;
-    color:#343434;
+.imagenourmi {
     margin-left: 70px;
-    margin-top: 15px;}
+    margin-top: 27px;
+}
 
-.textomision {font-size: 18px;
+.ourmision {
+    font-size: 45px;
+    color: #343434;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.textomision {
+    font-size: 18px;
     line-height: 2;
-    color:#626262;
+    color: #626262;
     font-weight: 500;
     margin-left: 70px;
     margin-top: 25px;
@@ -249,21 +283,26 @@ margin-bottom: 20px;
 
 }
 
-.margen {background-color:#FAFAFA;
-    margin-left: 50px;}
+.margen {
+    background-color: #FAFAFA;
+    margin-left: 50px;
+}
 
-.spcuatro {margin-top: 50px;}
+.spcuatro {
+    margin-top: 50px;
+}
 
 .easysteptobuy {
     font-size: 40px;
-    color:#343434;
+    color: #343434;
     line-height: 1.5;
     margin-bottom: 40px;
     margin-right: 165px;
-    width: 743px;}
+    width: 743px;
+}
 
 .parrafopcuatro {
-    color:#626262;
+    color: #626262;
     font-size: 18px;
     margin-top: 34px;
     margin-right: 41px;
@@ -272,9 +311,9 @@ margin-bottom: 20px;
 }
 
 .easy {
-    color:#343434;
+    color: #343434;
     width: 1333px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -282,131 +321,149 @@ margin-bottom: 20px;
 .parrafocinco {
     font-size: 15px;
     line-height: 1.8;
-    color:#626262;
+    color: #626262;
     font-weight: 500;
 }
 
 
-.botontres{width: 178.2px;
-    height: 43.2px}  
-    /*border color
+.botontres {
+    width: 178.2px;
+    height: 43.2px
+}
+
+/*border color
     border radius
     font family
     font size
     background color*/
-    
+
 
 .sdospagcuatro {
     font-size: 30px;
-    color:#343434;
-    line-height: 1.5;}
+    color: #343434;
+    line-height: 1.5;
+}
 
 
 .iconos {
     font-size: 50px;
-    color:#343434;}
+    color: #343434;
+}
 
 .pasos {
-    display:flex;
+    display: flex;
     justify-content: space-around;
     width: 1285px;
     margin-bottom: 120px;
-    margin-top: 40px;}
+    margin-top: 40px;
+}
 
-.parrafofaq { margin-bottom: 100px;
-    line-height: 1.8;}
+.parrafofaq {
+    margin-bottom: 100px;
+    line-height: 1.8;
+}
 
 .parrafosiconos {
     font-size: 15px;
     line-height: 2;
-    color:#626262;
+    color: #626262;
     font-weight: 500;
     margin-top: 10px;
 
 }
 
-.whychooseus { 
+.whychooseus {
     font-size: 43px;
-    color:#1F1F1F;
+    color: #1F1F1F;
     margin-bottom: 15px;
-    display:flex;
-    justify-content:flex-start;
-    
+    display: flex;
+    justify-content: flex-start;
+
 }
 
 .wchoop {
     font-size: 18px;
     line-height: 1.8;
-    color:#626262;
+    color: #626262;
     font-weight: 500;
-    margin-bottom: 60px ;
+    margin-bottom: 60px;
 
 }
 
 .wcutitulo {
     font-size: 32px;
-    color:#1F1F1F;
+    color: #1F1F1F;
     margin-bottom: 20px;
 
 }
 
-.wchoopuno {font-size: 16px;
+.wchoopuno {
+    font-size: 16px;
     line-height: 1.8;
-    color:#626262;
+    color: #626262;
     font-weight: 500;
     margin-bottom: 60px;
     margin-left: 80px;
 }
 
 .aversifunciona {
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    
+
+
 }
 
-.correr { 
+.correr {
     margin-left: 20px;
 }
 
-.check {font-size: 40px;
+.check {
+    font-size: 40px;
     margin-right: 10px;
     margin-left: 20px;
-    color:#1F1F1F;
+    color: #1F1F1F;
 }
 
 
-.whatsays{
+.whatsays {
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    }
+}
 
 
 
-.hunowhatsays{
+.hunowhatsays {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     font-size: 40px;
-    color: #343434;}
-    
-.whatsaysp{margin-top: 50px;
-    font-size:20px;
-    
+    color: #343434;
 }
 
-.opiniones{margin-top: 80px;
+.whatsaysp {
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+
+.opiniones {
+    margin-top: 80px;
     margin-bottom: 25px;
     line-height: 2;
-    color:#626262;}
+    color: #626262;
+}
 
-.nombres{display:flex;
+.nombres {
+    display: flex;
     justify-content: space-between;
     /*flex-direction: row;*/
 
 }
 
-.margennombres { margin-bottom: 5px;}
+.margennombres {
+    margin-bottom: 5px;
+}
 
 .nuevofoto {
     display: flex;
@@ -418,34 +475,40 @@ margin-bottom: 20px;
     width: 265px;
 }
 
-.eee{display:flex;
+.eee {
+    display: flex;
     justify-content: space-around;
     margin-top: 10px;
 }
 
 
 
-.pagina7{margin-top: 150px;
+.pagina7 {
+    margin-top: 150px;
     margin-left: 30px;
-    display:flex;
-    justify-content: space-between;}
+    display: flex;
+    justify-content: space-between;
+}
 
 .fotos {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     margin-top: 36px;
 
-    
+
 }
 
-.margendivdossvii{
-    display:flex;
+.margendivdossvii {
+    display: flex;
     justify-content: space-between;
     margin-left: 75px;
 }
- .margenloqui {  margin-top: 20px;}
 
- .psiete {
+.margenloqui {
+    margin-top: 20px;
+}
+
+.psiete {
     margin-top: 10px;
 }
 
@@ -453,7 +516,7 @@ margin-bottom: 20px;
     background-color: #3853B5;
     font-family: 'Nunito', sans-serif;
     font-size: 15px;
-    color:#FAFAFA; 
+    color: #FAFAFA;
     margin-top: 14px;
     width: 130px;
     height: 45px;
@@ -463,11 +526,50 @@ margin-bottom: 20px;
 }
 
 
-.cualq {display:flex;
+.cualq {
+    display: flex;
     justify-content: space-around;
     align-items: flex-end;
     margin-top: 36px;
     margin-left: 0px;
-    width: 650px;}
+    width: 650px;
+}
 
 
+
+
+
+.letsection {
+    margin: 120px 0px 100px 0px;
+}
+
+.flexporfa {
+    display: flex;
+    flex-direction: row;
+}
+
+.letscolumn {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 10px 80px;
+}
+
+.letspictures {
+    display: flex;
+    flex-direction: row;
+    height: 220px;
+    margin: 45px 0px 0px 0px;
+}
+
+.letstext {
+    font-size: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #343434;
+}
+.letsp {
+    margin:30px 0px 1px 0px;
+    font-family: 'Nunito', sans-serif;
+
+    color:#343434;
+}

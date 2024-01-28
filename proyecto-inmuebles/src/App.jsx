@@ -3,6 +3,8 @@ import HeaderPage from "./components/Page/Page.jsx";
 import SectionMenu from "./components/Main/Main.jsx";
 
 
+
+
 const App = () => {
   // Usa las imágenes según sea necesario
   return (
