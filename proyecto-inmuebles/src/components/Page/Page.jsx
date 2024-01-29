@@ -34,7 +34,7 @@ const headerPage = () => {
     return (
         <>
             <div>
-
+                {/* Header */}
                 <header className="menu">
                     <nav>
                         <a href="#">
@@ -76,19 +76,21 @@ const headerPage = () => {
                     </nav>
                 </header>
 
-
+                {/* MAIN */}
 
                 <section className="menu">
                     <div className="infoizq">
                         <div>
-                            <h1 className="titulo">Bring Your Family's<br />Happiness to Your<br />Dream House</h1>
-                            <p className="primerparrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima nihil minus<br /> porro consequuntur culpa id vel esse.</p>
+                            <h1 className="bring">Bring Your Family's<br />Happiness to Your<br />Dream House</h1>
+                            <p className="parrafuno">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima nihil minus porro consequuntur culpa id vel esse.</p>
                         </div>
 
                         <div>
-                            <form>
-                                <input type="text" defaultValue=" Search Here" className="formulariouno" />
-                                <input type="button" value="Search" className="funciona" />
+                            <form className="search-form">
+                                <div className="form-group">
+                                    <input type="text" defaultValue="Search Here" className="formulario" />
+                                    <button type="button" className="btnu">Search</button>
+                                </div>
                             </form>
                         </div>
 
@@ -111,7 +113,7 @@ const headerPage = () => {
                     </div>
 
                     <div>
-                        <img src={imagen1} alt="imagen" className="imagenuno" />
+                        <img src={imagen1} alt="imagen" className="imagenu" />
                     </div>
                 </section>
 
