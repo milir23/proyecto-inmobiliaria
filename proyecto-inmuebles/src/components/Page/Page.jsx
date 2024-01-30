@@ -30,6 +30,7 @@ import imagenlogo from "../../assets/imagen17.jpg";
 
 
 
+
 const headerPage = () => {
     return (
         <>
@@ -94,30 +95,34 @@ const headerPage = () => {
                             </form>
                         </div>
 
-                        <div className="numeros">
-                            <div>
+                        <div className="num">
+                            <div className="espaciosnum">
                                 <h2 className="tamañonumeros">280+</h2>
-                                <p>Awards Winning</p>
+                                <p className="pnum">Awards Winning</p>
                             </div>
 
-                            <div>
+                            <div className="espaciosnum">
                                 <h2 className="tamañonumeros">78+</h2>
-                                <p>Property Ready</p>
+                                <p className="pnum">Property Ready</p>
                             </div>
 
-                            <div>
+                            <div className="espaciosnum">
                                 <h2 className="tamañonumeros">298+</h2>
-                                <p>Happy Customers</p>
+                                <p className="pnum">Happy Customers</p>
                             </div>
                         </div>
                     </div>
+
+                    
 
                     <div>
                         <img src={imagen1} alt="imagen" className="imagenu" />
                     </div>
                 </section>
 
-                <section className="menu">
+            {/* SECTION 2 */}
+
+                <section className="menudos">
                     <h1 className="titulodos">Featured Listing</h1>
                     <p className="parrafodos">Lorem ipsum dolor, sit amet consectetur adipisicing elit, sed do eiusmod tempor<br /> incididumt ut labore et dolore magma aliqua.</p>
                 </section>
@@ -190,7 +195,7 @@ const headerPage = () => {
                         adipisicing elit. Debitis eligendi iusto dolore
                         corporis velit explicabo sunt consequatur
                     </p>
-                    <button className="botondos">
+                    <button className="btnd">
                         See More
                     </button>
                 </section>

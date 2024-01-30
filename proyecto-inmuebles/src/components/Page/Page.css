@@ -157,21 +157,41 @@ a {
     height: 73px;
     width: 580px;
     line-height: 1.8;
-    
+
 }
 
-.numeros {
+/* numeros */
+.espaciosnum {
+    margin: 0px 50px 0px 0px;
+}
+
+.num {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 20px;
-    margin-top: 25px;
+    margin: 25px 0px 10px 0px;
     color: var(--colorLetra);
 }
 
 .tamañonumeros {
     font-size: 35px;
+    margin: 0px 0px 10px 0px;
 }
+
+.pnum {
+    font-size: 18px;
+    color: var(--colorcuatro);
+    font-weight: 600;
+}
+
+/* SECTION 2 */
+
+.menudos {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px 0px 0px;
+}
+
 
 .titulodos {
     color: #343434;
@@ -236,12 +256,20 @@ a {
     margin-bottom: 100px;
 }
 
-.botondos {
+.btnd {
+    background-color: var(--colorFondo);
+    font-family: var(--fuente1);
+    font-size: 18px;
+    font-weight: 700;
+    color:var(--colorLetra);
+    border: 1px solid #626262;
+    border-radius: 50px;
     margin-top: 88px;
-    height: 38.2px;
-    width: 113.2px;
-    background-color: transparent;
-    border-radius: 25%;
+    height: 55px;
+    width: 165px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
 }
 
 .letsmove {
