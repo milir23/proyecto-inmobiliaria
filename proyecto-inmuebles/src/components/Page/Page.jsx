@@ -24,13 +24,6 @@ import imagenlogo from "../../assets/imagen17.jpg";
 
 
 
-
-
-
-
-
-
-
 const headerPage = () => {
     return (
         <>
@@ -113,14 +106,14 @@ const headerPage = () => {
                         </div>
                     </div>
 
-                    
+
 
                     <div>
                         <img src={imagen1} alt="imagen" className="imagenu" />
                     </div>
                 </section>
 
-            {/* SECTION 2 */}
+                {/* SECTION 2 */}
 
                 <section className="menudos">
                     <h1 className="titulodos">Featured Listing</h1>
@@ -189,6 +182,8 @@ const headerPage = () => {
                     </div>
                 </section>
 
+                {/* SECTION 3 */}
+
                 <section className="menu">
                     <p className="parrafopagdos">
                         Lorem ipsum dolor sit amet consectetur,
@@ -200,9 +195,10 @@ const headerPage = () => {
                     </button>
                 </section>
 
-                <section>
+                {/* ACA HAY COSAS PARA MODIFICAR */}
+                <section className="colorfondo">
                     <div className="centrado">
-                        <div className="margen">
+                        <div className="margendos">
                             <h1 className="ourvision">
                                 Our Vision
                             </h1>
@@ -460,12 +456,12 @@ const headerPage = () => {
 
                 {/* ACA HAY QUE RESOLVER COSAS */}
 
-                <section className="letsection">
+                <section className="letsectionu">
 
                     <div className="flexporfa">
                         {/* IMAGEN */}
                         <div>
-                            <img src={imagen9} alt="imagen" />
+                            <img src={imagen9} alt="imagen" className="imga" />
                         </div>
 
                         {/* TEXTO */}
@@ -491,50 +487,63 @@ const headerPage = () => {
 
                 </section>
 
+                {/* FOOTER */}
+
+                <footer className="foomargen">
+                    <section className="aver2">
+                        <div className="foo">
+                            <div className="margenloqui1">
+                                <div className="ordenz">
+                                    <img src={imagenlogo} alt="imagen" className="imgfinal" />
+                                    <h2 className="larkhomes">Lark Homes</h2>
+                                </div>
+                                <p className="tocoymevoy">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Perspiciatis aliquam inventore. Sit amet consectetur
+                                </p>
+                            </div>
 
 
-                <footer className="imagenes">
-                    <section>
-                        <img src={imagenlogo} alt="imagen" />
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
-                            Perspiciatis aliquam inventore veritatis! Beatae delectus <br />
-                            totam atque ipsam! Vel corrupti itaque magnam saepe ratione.
-                        </p>
-                    </section>
+                            <div className="margenloqui">
+                                <h2 className="usefulinks">Useful Links</h2>
+                                <div className="listai">
+                                    <a href="#" className="listados">Listing</a>
+                                    <a href="#" className="listados" >About Us</a>
+                                    <a href="#" className="listados"> Contact Us</a>
+                                    <a href="#" className="listados">Our Team</a>
+                                </div>
+                            </div>
 
-                    <section className="margenloqui">
-                        <h2>Useful Links</h2>
-                        <div>
-                            <a href="#">Listing</a><br />
-                            <a href="#">About Us</a><br />
-                            <a href="#">Contact Us</a><br />
-                            <a href="#">Our Team</a><br />
+                            <div className="margenloqui">
+                                <h2 className="usefulinks">Get in touch</h2>
+                                <div className="marglou">
+                                    <i className="bi bi-geo-alt-fill"></i>
+                                    <p>123 Anywhere Street, Any <br />
+                                        City. 12345 ST. Indonesia</p>
+
+                                </div>
+
+                                <div className="marglou">
+                                    <i class="bi bi-telephone-fill"></i>
+                                    <p>+123 456 7890</p>
+
+                                </div>
+
+                                <div className="marglou">
+                                    <i class="bi bi-envelope-fill"></i>
+                                    <p>hello@larkhomes.com</p>
+                                </div>
+                            </div>
+
+                            <div className="margenloqui">
+                                <h2>Newsletter</h2>
+                                <div className="modificacionform">
+                                    <input type="email" value=" Your Email" className="formulariodos" />
+                                    <button className="ultimoboton">Submit</button>
+                                </div>
+
+                            </div>
                         </div>
-                    </section>
-
-                    <section className="margenloqui">
-                        <div>
-                            {/* <i className="bi bi-geo-alt-fill"></i> */}
-                            <p>123 Anywhere Street, Any <br />
-                                City. 12345 ST. Indonesia</p>
-                        </div>
-
-                        <div>
-                            {/* svg telefono*/}
-                            <p>+123 456 7890</p>
-                        </div>
-
-                        <div>
-                            {/* svg correo*/}
-                            <p>hello@larkhomes.com</p>
-                        </div>
-                    </section>
-
-                    <section className="margenloqui">
-                        <h2>Newsletter</h2>
-                        <input type="email" value="Your Email" />
-                        <button>Submit</button>
                     </section>
                 </footer>
 

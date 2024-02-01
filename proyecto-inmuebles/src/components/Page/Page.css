@@ -2,6 +2,7 @@
 
 :root {
     --colorFondo: #ffffff;
+    --colorFondou: #fafafa;
     --colorLetra: #343434;
     --colorblanco: #FAFAFA;
     --colorcuatro: #7C7C7C;
@@ -245,6 +246,12 @@ a {
 
 }
 
+/* SECTION 3 */
+
+.colorfondo {
+    background-color: #fafafa;
+}
+
 .parrafopagdos {
     font-size: 18px;
     line-height: 1.8;
@@ -261,14 +268,14 @@ a {
     font-family: var(--fuente1);
     font-size: 18px;
     font-weight: 700;
-    color:var(--colorLetra);
+    color: var(--colorLetra);
     border: 1px solid #626262;
     border-radius: 50px;
     margin-top: 88px;
     height: 55px;
     width: 165px;
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -335,6 +342,12 @@ a {
     background-color: #FAFAFA;
     margin-left: 50px;
 }
+
+.margendos {
+    background-color: #FAFAFA;
+    margin-left: 50px;
+}
+
 
 .spcuatro {
     margin-top: 50px;
@@ -553,7 +566,7 @@ a {
 }
 
 .margenloqui {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .psiete {
@@ -587,13 +600,18 @@ a {
 
 
 
-.letsection {
-    margin: 120px 0px 100px 0px;
+.letsectionu {
+    margin: 150px 0px 100px 0px;
 }
 
 .flexporfa {
     display: flex;
     flex-direction: row;
+}
+
+.imga {
+    height: 610px;
+    width: 565px;
 }
 
 .letscolumn {
@@ -619,6 +637,116 @@ a {
 .letsp {
     margin: 30px 0px 1px 0px;
     font-family: 'Nunito', sans-serif;
+    font-size: 18px;
 
     color: #343434;
+}
+
+.foo {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--colorFondou);
+    height: 230px;
+    width: 1360px;
+
+}
+
+.foomargen {
+    margin: 10px 0px 0px 0px;
+}
+
+.usefulinks {
+    font-size: 15px;
+
+}
+
+.marglou {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 10px 15px 0px;
+    font-size: 15px;
+
+
+}
+
+.tocoymevoy {
+    font-size: 14px;
+    width: 280px;
+    color: #626262;
+    line-height: 1.9;
+    margin: 10px 0px 0px 10px;
+}
+
+.laco {
+    margin: 10px 10px 10px 0px;
+
+}
+
+.listai {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 0px;
+}
+
+.listados {
+    margin: 5px 5px 5px 0px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.imgfinal {
+    margin: 5px 0px 0px 0px;
+}
+
+.ordenz {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 10px 0px;
+}
+
+.larkhomes {
+    font-size: 12px;
+    font-weight: bolder;
+    margin: 25px 0px 0px 0px;
+}
+
+.marglou p {
+    font-size: 14px;
+    margin: 0px 10px 0px 10px;
+    color:#7C7C7C;
+}
+
+.margenloqui h2 {
+    font-size: 14px;
+}
+
+.modificacionform {
+    display:flex;
+    flex-direction: column;
+
+}
+
+.formulariodos {
+    width: 220px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid var(--colorcuatro);
+    color:#626262;
+    margin: 20px 0px 10px 0px;
+}
+
+.ultimoboton {
+    background-color: var(--botoncolor);
+    border: 1px solid var(--botoncolor);
+    border-radius: 50px;
+    color: var(--colorFondou);
+    font-family: var(--fuente1);
+    font-size: 13px;
+    width: 220px;
+    height: 35px; 
+
+}
+
+.margenloqui1 {
+    margin: 35px 0px 0px 0px;
 }
