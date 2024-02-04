@@ -553,13 +553,13 @@ const headerPage = () => {
                                 </div>
 
                                 <div className="marglou">
-                                    <i class="bi bi-telephone-fill"></i>
+                                    <i className="bi bi-telephone-fill"></i>
                                     <p>+123 456 7890</p>
 
                                 </div>
 
                                 <div className="marglou">
-                                    <i class="bi bi-envelope-fill"></i>
+                                    <i className="bi bi-envelope-fill"></i>
                                     <p>hello@larkhomes.com</p>
                                 </div>
                             </div>
@@ -567,7 +567,7 @@ const headerPage = () => {
                             <div className="margenloqui">
                                 <h2>Newsletter</h2>
                                 <div className="modificacionform">
-                                    <input type="email" value=" Your Email" className="formulariodos" />
+                                    <input type="email"  defaultValue=" Your Email" className="formulariodos" />
                                     <button className="ultimoboton">Submit</button>
                                 </div>
 
